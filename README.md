@@ -32,7 +32,7 @@
 
 # Optimised Workflow Statuses <a id="optimised-workflow-status"></a>
 
-1. **Ready**
+1. **Prioritised**
    - **Description:** Task is prioritized and ready for development to begin.
    - **Transition:** Move to "In Progress."
 
@@ -96,7 +96,7 @@
 
 ### Workflow Summary
 
-1. **Ready → In Progress**
+1. **Prioritised → In Progress**
 2. **In Progress → Code Review → Approval**
 3. **Approval → Test Ready → Testing**
 4. **Testing → Failed (loop) or Passed**
@@ -109,7 +109,7 @@
 
 | **Status**           | **Short Description**                              |
 |----------------------|----------------------------------------------------|
-| **Ready**            | Task is ready to start development.                |
+| **Prioritised**            | Task is ready to start development.                |
 | **In Progress**      | Development work is ongoing.                       |
 | **Code Review**      | Awaiting code review.                              |
 | **Approval**         | Awaiting project owner’s approval.                 |
@@ -161,7 +161,7 @@ Reducing workflow statuses can streamline the process, making it easier for team
 
 After applying the consolidations above, the statuses could look something like this:
 
-1. **Ready**  
+1. **Prioritised**  
 2. **In Progress**
 3. **Review** (combines Code Review and Approval)
 4. **Testing** (combines all QA and regression testing phases)
@@ -330,7 +330,7 @@ Implementing automation for transitions and notifications throughout the entire 
    - **Automatic Transition to High Priority**:
      - For tasks marked as **High Priority**, automate fast-tracking by notifying relevant stakeholders and moving the task to the top of the queue in each status, such as jumping to the front of **Testing** or **Review**.
    - **Priority Notifications**:
-     - Send a priority-based notification to developers when tasks move into **Ready** with a high-priority label, helping prioritize urgent work early on.
+     - Send a priority-based notification to developers when tasks move into **Prioritised** with a high-priority label, helping prioritize urgent work early on.
 
 ### 6. **Automate Status Changes for Release and Completion**
 
