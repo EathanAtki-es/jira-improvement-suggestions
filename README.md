@@ -33,14 +33,14 @@
 # Optimised Workflow Statuses <a id="optimised-workflow-status"></a>
 
 1. **Prioritised**
-   - **Description:** Task is prioritized and ready for development to begin.
+   - **Description:** Task is prioritised and ready for development to begin.
    - **Transition:** Move to "In Progress."
 
 2. **In Progress**
    - **Description:** Development work is underway.
    - **Transition Options:**
      - **Code Review**: Development is complete, and the code is ready for a review.
-     - **Back to Ready**: If the task needs more clarification or is deprioritized.
+     - **Back to Ready**: If the task needs more clarification or is deprioritised.
 
 3. **Code Review**
    - **Description:** Code is awaiting review.
@@ -157,7 +157,7 @@ Reducing workflow statuses can streamline the process, making it easier for team
 
 ---
 
-### Optimized Workflow
+### Optimised Workflow
 
 After applying the consolidations above, the statuses could look something like this:
 
@@ -190,7 +190,7 @@ After applying the consolidations above, the statuses could look something like 
 
 This approach balances simplicity with clarity, ensuring streamlined workflows without sacrificing essential insights into task progress. Let me know if this aligns with your needs or if you'd like more specific examples!
 
-When a feature fails QA, it’s generally best to have it move to a specific **"Failed"** status rather than directly back to **"In Progress"** or **"Ready**." This "Failed" status clarifies that the feature needs attention due to QA issues, while allowing teams to prioritize it, assess failure reasons, and decide next steps. Here’s how this approach can benefit the workflow:
+When a feature fails QA, it’s generally best to have it move to a specific **"Failed"** status rather than directly back to **"In Progress"** or **"Ready**." This "Failed" status clarifies that the feature needs attention due to QA issues, while allowing teams to prioritise it, assess failure reasons, and decide next steps. Here’s how this approach can benefit the workflow:
 
 ---
 
@@ -216,7 +216,7 @@ If we choose to coninue with the QA statuses i think we need to align on what th
 
 ### Why a “Failed” Status Improves the Workflow
 
-- **Enhanced Tracking and Documentation**: The **"Failed"** status provides a holding area where issues can be documented, and root causes can be analyzed. This also helps with process improvement by making failure data available for review.
+- **Enhanced Tracking and Documentation**: The **"Failed"** status provides a holding area where issues can be documented, and root causes can be analysed. This also helps with process improvement by making failure data available for review.
 - **Reduced Ambiguity**: A dedicated **"Failed"** status eliminates any confusion about the feature’s current state and makes it clear that a feature is not in active development but awaiting rework due to QA feedback.
 - **Efficient Transition and Accountability**: Moving from **"Failed"** to **"In Progress"** makes it easy to see which tasks are currently being reworked, and it clarifies developer responsibility for handling QA-related issues.
 
@@ -250,10 +250,10 @@ Automation can play a crucial role in managing tasks that fail QA by ensuring im
    - **Checklist of Failure Reasons**: Use an automated checklist of common QA failure reasons (e.g., functionality, performance, UI) to provide structured feedback on the reason for failure, which can help with later analysis.
 
 ### 5. **Automatic Status Reset Upon Rework Completion**
-   - **Auto-Move to Testing After Fixes**: When the developer marks the task as “Rework Complete” or moves it to **"In Progress"**, automation can automatically transition it back to **"Testing"** once it’s ready, reducing manual transitions and minimizing the chance of a task stalling between statuses.
+   - **Auto-Move to Testing After Fixes**: When the developer marks the task as “Rework Complete” or moves it to **"In Progress"**, automation can automatically transition it back to **"Testing"** once it’s ready, reducing manual transitions and minimising the chance of a task stalling between statuses.
 
 ### 6. **Escalation Rules for Unresolved Failures**
-   - **Set SLAs for Failed Tasks**: If a task remains in **"Failed"** for a set period (e.g., 2 business days), automation can trigger an escalation notification to a team lead or project manager, ensuring visibility and prioritization of unresolved issues.
+   - **Set SLAs for Failed Tasks**: If a task remains in **"Failed"** for a set period (e.g., 2 business days), automation can trigger an escalation notification to a team lead or project manager, ensuring visibility and prioritisation of unresolved issues.
    - **Escalate Repeated Failures**: If a task fails multiple times, automation can add it to a high-priority queue or trigger an alert to a senior team member to ensure root causes are addressed before retesting.
 
 ### 7. **Create a Report or Dashboard for Failed Tasks**
@@ -323,14 +323,14 @@ Implementing automation for transitions and notifications throughout the entire 
        - If a task stays in **In Progress** for more than 3 days, notify the assigned developer and their team lead.
        - If a task remains in **Testing** for more than 2 days, alert the QA team lead.
    - **Escalation on Overdue Tasks**:
-     - After SLA breaches, escalate overdue tasks to a project manager for prioritization, helping the team stay on track and minimizing delays.
+     - After SLA breaches, escalate overdue tasks to a project manager for prioritisation, helping the team stay on track and minimising delays.
 
 ### 5. **Automate Priority-Based Transitions**
 
    - **Automatic Transition to High Priority**:
      - For tasks marked as **High Priority**, automate fast-tracking by notifying relevant stakeholders and moving the task to the top of the queue in each status, such as jumping to the front of **Testing** or **Review**.
    - **Priority Notifications**:
-     - Send a priority-based notification to developers when tasks move into **Prioritised** with a high-priority label, helping prioritize urgent work early on.
+     - Send a priority-based notification to developers when tasks move into **Prioritised** with a high-priority label, helping prioritise urgent work early on.
 
 ### 6. **Automate Status Changes for Release and Completion**
 
@@ -349,7 +349,7 @@ Implementing automation for transitions and notifications throughout the entire 
 ### 8. **Weekly Digest for Workflow Summary**
 
    - **Summary Report Automation**:
-     - Generate and send out a weekly summary report listing tasks in each workflow stage, emphasizing any stalled or high-priority items. This provides team leads with an overview of progress, blockers, and upcoming releases.
+     - Generate and send out a weekly summary report listing tasks in each workflow stage, emphasising any stalled or high-priority items. This provides team leads with an overview of progress, blockers, and upcoming releases.
 
 ### 9. **Automated Labeling and Filtering for Easy Tracking**
 
@@ -399,15 +399,15 @@ Limiting fields in Jira issue types to a concise set of essential information of
    - **Efficient Tracking**: Limiting fields to essential ones means you can design more focused filters, views, and reports, making it easier to track progress across multiple issues or projects without getting lost in extraneous details.
 
 ### 5. **Aligns with Agile and Lean Principles**
-   - **Focus on Value-Added Information**: Agile emphasizes efficiency, adaptability, and value-focused processes. Keeping fields concise aligns with this by ensuring that only valuable, actionable information is requested and maintained.
-   - **Less is More**: Minimizing fields fosters a leaner process by eliminating unnecessary steps, ensuring developers can focus on coding and problem-solving rather than administrative tasks.
+   - **Focus on Value-Added Information**: Agile emphasises efficiency, adaptability, and value-focused processes. Keeping fields concise aligns with this by ensuring that only valuable, actionable information is requested and maintained.
+   - **Less is More**: Minimising fields fosters a leaner process by eliminating unnecessary steps, ensuring developers can focus on coding and problem-solving rather than administrative tasks.
 
 ### 6. **Reduces Onboarding Time and Increases Adoption**
    - **Simplicity for New Developers**: For new team members or developers who are unfamiliar with your Jira setup, a simplified, essential field set makes it easier to get started without extensive onboarding.
    - **Higher Adoption**: When developers find it easy to use and understand Jira issues, they’re more likely to embrace the tool and keep issue information updated.
 
-### 7. **Eases Maintenance and Customization of Workflows**
-   - **Simpler Workflow Customization**: Fewer fields mean that any automation rules, workflows, or reporting tied to those fields are easier to maintain and update as project needs evolve.
+### 7. **Eases Maintenance and Customisation of Workflows**
+   - **Simpler Workflow Customisation**: Fewer fields mean that any automation rules, workflows, or reporting tied to those fields are easier to maintain and update as project needs evolve.
    - **Greater Flexibility for Future Updates**: Limiting fields allows admins to make changes quickly and more effectively when requirements change, without needing to review and update a complex field structure.
 
 ---
